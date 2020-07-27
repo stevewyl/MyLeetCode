@@ -2,6 +2,7 @@ from typing import List
 
 from linetimer import CodeTimer
 
+# https://leetcode-cn.com/problems/binary-search/
 def search(nums: List[int], target: int) -> int:
     left = 0
     right = len(nums) - 1
@@ -58,6 +59,7 @@ def right_bound(nums: List[int], target: int) -> int:
         return -1
     return right
 
+# https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 def searchRange(nums: List[int], target: int) -> List[int]:
     lr = left_bound(nums, target)
     if lr == -1:
