@@ -36,6 +36,7 @@ def nSumTarget(nums: List[int], n: int, start: int, target: int) -> List[List[in
             while i < nl - 1 and nums[i] == nums[i + 1]:
                 i += 1
             i += 1
+    print(result)
     return result
 
 def nSum(nums: List[int], n: int, target: int) -> List[List[int]]:
